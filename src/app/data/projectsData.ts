@@ -61,7 +61,7 @@ export const projects: Project[] = [
   {
     id: 7,
     title: "Student Management System",
-    description: "Guess the number be happy.",
+    description: "RESTful API test with Postman, CRUD operations .",
     techStack: ["Java", "Spring Boot", "MySQL", "RestApi", "Postman"],
     github: "https://github.com/thantaungsatt/student-management.git",
     category: "Backend"

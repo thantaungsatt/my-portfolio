@@ -20,7 +20,7 @@ export function Home() {
     },
     {
       title: 'Frontend',
-      skills: ['React', 'TypeScript', 'HTML/CSS', 'Bootstrap', 'Tailwind CSS'],
+      skills: ['HTML/CSS', 'JavaScript', 'Thymeleaf', 'React', 'TypeScript', 'Bootstrap', 'Tailwind CSS'],
       icon: Layout,
       color: 'bg-purple-500'
     },
