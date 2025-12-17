@@ -30,7 +30,7 @@ export const projects: Project[] = [
     title: "Portfolio Website",
     description: "Responsive portfolio website built with modern UI/UX principles and smooth animations.",
     techStack: ["React", "TypeScript", "Tailwind CSS", "Vite"],
-    liveDemo: "https://example.com",
+    liveDemo: "https://my-portfolio-8k5krgyli-thant-aung-satts-projects.vercel.app",
     github: "https://github.com/thantaungsatt/Portfolio.git",
     category: "Frontend"
   },
