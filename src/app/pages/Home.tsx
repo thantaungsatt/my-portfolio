@@ -32,7 +32,7 @@ export function Home() {
     },
     {
       title: 'Tools',
-      skills: ['Git', 'GitHub', 'Maven', 'Postman'],
+      skills: ['GitHub Desktop', 'GitHub', 'Postman'],
       icon: Wrench,
       color: 'bg-orange-500'
     }

@@ -1,4 +1,5 @@
 import { Github, Linkedin, Mail } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -11,12 +12,12 @@ export function Footer() {
     },
     {
       name: 'LinkedIn',
-      url: 'https://linkedin.com/in/thantaungsatt',
+      url: 'https://www.linkedin.com/in/thant-aung-satt-9a3718388/',
       icon: Linkedin
     },
     {
       name: 'Email',
-      url: 'thantas2292@gmail.com',
+      url: 'mailto:thantas2292@gmail.com',
       icon: Mail
     }
   ];
@@ -39,36 +40,36 @@ export function Footer() {
             <h4 className="font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li>
-                <a
-                  href="/"
+                <Link
+                  to="/"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="/about"
+                <Link
+                  to="/about"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   About
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="/projects"
+                <Link
+                  to="/projects"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Projects
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="/contact"
+                <Link
+                  to="/contact"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

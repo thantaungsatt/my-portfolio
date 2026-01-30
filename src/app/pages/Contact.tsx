@@ -114,7 +114,7 @@ export function Contact() {
     {
       icon: Linkedin,
       label: 'LinkedIn',
-      href: 'https://linkedin.com/in/thantaungsatt'
+      href: 'https://www.linkedin.com/in/thant-aung-satt-9a3718388/'
     }
   ];
 
@@ -296,17 +296,27 @@ export function Contact() {
               </div>
 
               {/* Download CV */}
+
               <div className="mt-8">
-                <a
+                {/* <a
                   href={`${import.meta.env.BASE_URL}cv/Thant_Aung_Satt_CV.pdf`}
                   className="inline-block w-full text-center px-6 py-3 border-2 border-cyan-600 text-cyan-600 rounded-lg hover:bg-cyan-50 transition-colors"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    alert('CV download would start here');
-                  }}
+                // onClick={(e) => {
+                //   e.preventDefault();
+                //   alert('CV download would start here');
+                // }}
                 >
-                  Download CV
+                  View CV
+                </a> */}
+                <a
+                  href={`${import.meta.env.BASE_URL}cv/Thant_Aung_Satt_CV.pdf`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block w-full text-center px-6 py-3 border-2 border-cyan-600 text-cyan-600 rounded-lg hover:bg-cyan-50 transition-colors"
+                >
+                  View CV
                 </a>
+
               </div>
             </div>
           </div>
