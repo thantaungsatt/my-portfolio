@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { ProjectCard } from '../components/ProjectCard';
 import { projects } from '../data/projectsData';
 import { Filter } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export function Projects() {
   const [selectedCategory, setSelectedCategory] = useState<string>('All');
@@ -90,12 +91,12 @@ export function Projects() {
           <p className="text-xl text-gray-600 mb-8">
             I'm always open to discussing new projects and opportunities
           </p>
-          <a
-            href="/contact"
+          <Link
+            to="/contact"
             className="inline-block px-8 py-3 bg-cyan-600 text-white rounded-lg hover:bg-cyan-700 transition-colors"
           >
             Get In Touch
-          </a>
+          </Link>
         </div>
       </section>
     </div>
